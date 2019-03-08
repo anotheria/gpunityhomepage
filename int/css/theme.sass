@@ -1,0 +1,65 @@
+body
+    font-family: 'Muli', sans-serif
+
+.container-fluid
+    padding-left: 80px
+    padding-right: 80px
+
+a
+    transition: all 0.12s ease-in-out
+
+h1
+    font-weight: 600
+
+.bg-dark
+    background: $dark !important
+
+.btn
+    border-radius: 0
+    text-transform: uppercase
+    font-size: 14px
+    font-weight: bold
+    padding: 15px 30px
+    &.btn-lg
+        font-size: 16px
+
+
+.btn-primary
+    background-color: $primary
+    color: $black
+    border-color: $primary
+    &:hover
+        background-color: #FFF
+        border-color: #FFF
+        color: $black
+        box-shadow: 0 0 35px rgba(190,195,209,0.35)
+    &:active
+        background-color: #FFF !important
+        border-color: #FFF !important
+        color: $black !important
+    &:focus
+        box-shadow: 0 0 0 0.2rem $primary !important
+
+.btn-success
+    background-color: #ff9434
+    color: #FFF
+    border-color: #ff9434
+    &:hover
+        background-color: #FFF
+        border-color: #FFF
+        color: $black
+        box-shadow: 0 0 35px rgba(190,195,209,0.35)
+    &:active
+        background-color: #FFF !important
+        border-color: #FFF !important
+        color: $black !important
+    &:focus
+        box-shadow: 0 0 0 0.2rem #ff9434 !important
+
+.form-control
+    border-radius: 0
+    border: none
+    box-shadow: 0 0 56px rgba(216,216,216,0.35)
+    font-weight: 300
+    padding: 10px 15px
+    height: 50px
