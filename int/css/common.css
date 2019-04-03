@@ -64,8 +64,11 @@
 .img-icon-item {
   width: 100px; }
 
+.img-logo-item {
+  width: 200px; }
+
 .widget-box {
-  padding-left: 100px;
+  padding-left: 0;
   position: relative;
   margin-bottom: 60px; }
   .widget-box .icon-item {
@@ -261,7 +264,7 @@
   background-repeat: no-repeat;
   background-position: bottom center;
   padding-bottom: 130px;
-  margin-bottom: -50px; }
+  margin-bottom: -10px; }
 
 .logo {
   height: 42px; }
@@ -316,6 +319,14 @@
 .row.row-team > div {
   flex: 0 0 20%;
   max-width: 20%; }
+
+.widget-logo-box .img-logo-item {
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.2s ease-in-out; }
+.widget-logo-box:hover .img-logo-item {
+  filter: grayscale(0%);
+  opacity: 1; }
 
 body {
   font-family: "Muli", sans-serif; }
