@@ -23,18 +23,18 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarsExample07">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+            <ul class="navbar-nav ml-auto scroll-links">
+                <li class="nav-item">
+                    <a class="nav-link" id="aboutlink" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Partners</a>
+                    <a class="nav-link" id="productslink" href="#">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Team</a>
+                    <a class="nav-link" id="partnerslink" href="#">Partners</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" id="teamlink" href="#">Team</a>
                 </li>
             </ul>
         </div>
@@ -57,7 +57,7 @@
     </div>
 </section>
 
-<section class="section section-about">
+<section class="section section-about" id="about">
     <div class="container">
         <div class="row">
             <div class="col-lg-7 hidden-md">
@@ -98,7 +98,7 @@ For AMD we provide a specialized solution, which increases the cards profitabili
     </div>
 </section>
 
-<section class="section section-services">
+<section class="section section-services" id="products">
     <div class="container">
         <div class="section-header">
             <h3>
@@ -143,7 +143,7 @@ For AMD we provide a specialized solution, which increases the cards profitabili
     </div>
 </section>
 
-<section class="section section-icons-list">
+<section class="section section-icons-list" id="partners">
     <div class="container">
 
         <div class="content-box-header section-title text-center">
@@ -192,14 +192,13 @@ For AMD we provide a specialized solution, which increases the cards profitabili
                 <div class="widget-box widget-logo-box text-center">
                     <img src="int/img/logos/6.png" class="img-logo-item">
                     <span class="widget-title">Finance Global</span>
-
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="section section-team">
+<section class="section section-team" id="team">
     <div class="container">
         <div class="section-header">
             <div class="row justify-content-center">
@@ -449,11 +448,20 @@ For AMD we provide a specialized solution, which increases the cards profitabili
                         </ul>
                     </div>
                     <div class="col-lg-4">
-                        <ul class="links-list">
+                        <ul class="links-list scroll-links">
                             <li class="links-title"><strong>Company</strong></li>
-                            <li><a href="/Contact.html">Contact Page</a></li>
-                            <li><a href="/Privacy.html">Privacy Policy</a></li>
-                            <li><a href="/LegalNotice.html">Legal Notice</a></li>
+                            <li>
+                                <a id="aboutlink" href="#">About</a>
+                            </li>
+                            <li>
+                                <a id="productslink" href="#">Products</a>
+                            </li>
+                            <li>
+                                <a id="partnerslink" href="#">Partners</a>
+                            </li>
+                            <li>
+                                <a id="teamlink" href="#">Team</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
