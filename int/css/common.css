@@ -127,7 +127,7 @@
 }
 .white-box .white-box-img {
   background: #e9e5fe;
-  height: 200px;
+  height: 400px;
   background-size: cover;
   background-position: center center;
 }
@@ -647,15 +647,19 @@ h1 {
   .white-box-content-sm {
     padding: 30px 5px;
   }
+
+  .row.row-team > div {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 @media (max-width: 768px) {
   .logo {
     margin-left: 15px;
   }
 
-  .row.row-team > div {
-    flex: 0 0 50%;
-    max-width: 50%;
+  .white-box .white-box-img {
+    height: 300px;
   }
 }
 
