@@ -127,9 +127,12 @@
 }
 .white-box .white-box-img {
   background: #e9e5fe;
-  height: 400px;
+  height: 200px;
   background-size: cover;
   background-position: center center;
+}
+.white-box .white-box-img.photo-lg {
+  height: 400px;
 }
 .white-box .white-box-content {
   padding: 50px 30px;
@@ -658,7 +661,7 @@ h1 {
     margin-left: 15px;
   }
 
-  .white-box .white-box-img {
+  .white-box .white-box-img.photo-lg {
     height: 300px;
   }
 }
